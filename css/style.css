@@ -1,0 +1,297 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  *::before,::after{
+    box-sizing: border-box; 
+} 
+.header{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 4px 12px rgb(0 0 0 / 20%);  
+    padding: 4px;    
+}
+.header input{
+    width: 510px;
+    height: 30px;
+    border: 1px solid rgb(179, 173, 173);
+    border-radius: 28px;
+    background-color: rgb(242, 247, 250);
+    padding: 8px;   
+}
+::-webkit-input-placeholder {  
+    font-size: 16px;      
+}
+.header_logo>svg{
+    margin-top: 5px;
+}
+nav{
+    border: 1px solid white; 
+    font-size: 14px;
+}
+nav a{
+    text-decoration: none;
+    color: black;   
+}
+.first_nav{
+     margin-right: 20px; 
+}
+ .co{
+    margin-right: 20px;
+} 
+.pool svg{
+    margin-top: 12px;
+}
+.header-button1{
+    height: 45px;
+    background-color: white;
+    font-weight: 700;
+}
+.header-button2{
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+.header-button3{
+    border: 2px solid black;
+    width: 30px;
+    background-color: white;
+    padding: 5px;
+   height: 32px;
+   text-align: center;
+}
+.header-button3 svg{
+    margin: 3px;
+}
+
+.pool{
+    display: flex;
+    gap: 23px;
+}
+.second-section{
+    position: relative;
+    background-image: url(https://img-c.udemycdn.com/notices/web_banner/slide_1_image_udlite/db24b94e-d190-4d5a-b1dd-958f702cc8f5.jpg);
+    height: 400px;
+}
+.section-2{
+    position: absolute;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    width: 440px;
+    padding: 19px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+ h1{
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.third-section{
+    padding: 10px;
+}
+.third-section h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.selection_pane1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;  
+}
+.selection_pane1 ul li{
+    list-style-type: none;
+    font-weight: 700;
+    color: gray;
+}
+#python_pane{
+    color: black;
+}
+.python-window{
+    border: 1px solid rgb(209, 200, 200);
+    padding: 18px;
+}
+#python-button{
+    height: 40px;
+    background-color: white;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.selection-pane1 ul li{
+    list-style-type: none;
+}
+.selection-pane1 ul{
+    display: flex;
+    gap: 25px;
+}
+.selection-pane1 ul li img{
+    width: 230px;   
+}
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    background-color: rgb(238, 248, 252);
+    padding: 13px;
+}
+.fourth-section p{
+    font-weight: 700;
+}
+.section4 svg{
+    border: 1px solid rgb(238, 248, 252);
+    background-color: rgba(199, 185, 185, 0.774);
+    border-radius: 22px;
+    padding: 11px;
+    margin-top: 9px;
+}
+.section4{
+    display: inline-flex;
+    gap: 5px;
+}
+.sixth-section{
+    padding: 20px;
+}
+.sub-section6{
+    display: flex;
+    gap: 25px;  
+}
+.seventh-section{
+    border: 1px solid transparent;
+    background-color: rgb(246, 253, 253);
+    padding: 20px;
+}
+.sub-section7{
+    display: flex;
+    gap: 195px;
+    font-weight: 700;  
+}
+.sub-section7 p{
+    color: gray;
+    font-weight: 600;
+    font-size: 15px;
+}
+.seventh-section button{
+    background-color: transparent;
+    height: 50px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+.eigth-section{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    padding: 60px;
+}
+.sub-section8{
+    width: 33%;
+    margin-top: 80px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.sub-section8 button{
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    padding: 13px;
+}
+.ninth-section{
+    border: 1px solid transparent;
+    background-color: rgb(246, 253, 253);
+    text-align: center;   
+}
+.ninth-section h1{
+    font-size: 29px;
+}
+.sub-section9 ul li{
+    list-style-type: none;    
+}
+.sub-section9 ul{
+    display: inline-flex;
+    gap: 130px;
+}
+.tenth-section{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    padding: 60px;
+}
+.sub-section10 img{
+    width: 192px;
+}
+.sub-section10{
+    width: 33%;
+    margin-top: 80px;
+    line-height: 1.7;
+    font-size: 19px;
+}
+.sub-section10 button{
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    padding: 13px;
+}
+.eleventh-section{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    padding: 60px;
+}
+.sub-section11{
+    width: 33%;
+    margin-top: 80px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.sub-section11 button{
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    padding: 13px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.884);
+    color: #fff;
+    padding: 30px;
+}
+.options{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 10px;   
+}
+.options li{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sub-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.sub-footer1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+.sub-footer button{
+    width: 140px;
+    height: 40px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.sub-footer1 svg{
+    margin-left: 35px;
+}
+.sub-footer1 p{
+    font-size: 15px;
+}
